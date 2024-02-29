@@ -52,7 +52,7 @@ def user_input(user_question, pdf_reader):
 def main():
     st.set_page_config("CPGRAMS  AI Chatbot 🤖")
 
-    st.title("CPGRAMS Chatbot")
+    st.title("CPGRAMS AI Chatbot 🤖")
     user_question = st.text_input("Query About product")
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
