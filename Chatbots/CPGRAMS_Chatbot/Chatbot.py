@@ -50,7 +50,7 @@ def user_input(user_question, pdf_reader):
             st.audio(sound_file, format="audio/mp3")
 
 def main():
-    st.set_page_config("CPGRAMS Chatbot")
+    st.set_page_config("CPGRAMS  AI Chatbot 🤖")
 
     st.title("CPGRAMS Chatbot")
     user_question = st.text_input("Query About product")
