@@ -43,7 +43,7 @@ def user_input(user_question, pdf_reader):
         if i % 2 == 0:
             st.write("You: ", message.content)
         else:
-            st.write("CPGRAMS: ", message.content)
+            st.write("🤖: ", message.content)
             tts = gTTS(message.content, lang='en')
             sound_file = BytesIO()
             tts.write_to_fp(sound_file)
